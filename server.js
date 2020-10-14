@@ -155,7 +155,7 @@ client.on("message", async message => {
             .split(" ")
             .slice(1)
             .join(" ");
-        if (!message.author.id === "696338291229982820") return; /// تعديل مهم حط الايدي تبعك
+        if (!message.author.id === "682588076177883177") return; /// تعديل مهم حط الايدي تبعك
         client.user.setAvatar(args).catch(err => message.reply("send a valid url"));
         message.channel.send(`تم تغيير الصورة الى :**${args}** `);
     }
