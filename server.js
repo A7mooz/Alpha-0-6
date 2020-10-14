@@ -1,14 +1,3 @@
-const http = require('http');
-const express = require('express');
-const app = express();
-app.get("/", (request, response) => {
-    response.sendStatus(200);
-});
-app.listen(process.env.PORT);
-setInterval(() => {
-    http.get(`http://name.glitch.me/`); /// حط اسم المشروع تبعك name تعديل مهم بدل
-}, 280000);
-
 // بكجات
 const Discord = require("discord.js");
 const {
